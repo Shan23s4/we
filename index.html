@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html , body{
+            height: 100%;
+            width: 100%;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+        .box1{
+            position: relative;
+            bottom: 45vh;
+            width: 400%;
+            background-color: antiquewhite;
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+
+        }
+        .box1 a{
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+
+        }
+        .one{
+            background-color:rgb(20, 66, 182);
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .one h1{
+           position: relative;
+           right: 40vw;
+           font-size: 30px;
+           
+        }
+        .two{
+            background-color: chartreuse;
+        }
+        .three{
+            background-color: aquamarine;
+        }
+        @media screen and (max-width:700px) {
+            .one{
+                width: 100%;
+                height: 50vh;
+            }
+            .box1{
+                
+            }
+            .two{
+                width: 100%;
+                height: 50vh;
+            }
+            .three{
+                width: 100%;
+                height: 50vh;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <section class="one">
+            <div class="box1">
+                <a href="#">Create now</a>
+                <a href="#">Business</a>
+                <a href="#">Recoures</a>
+                <a href="#">Pricing</a>
+            </div>
+            <h1>Create a blog
+                worth sharing</h1>
+        </section>
+        <section class="two">
+            <h1>hey
+
+            </h1>
+        </section>
+        <section class="three">
+            <h1>Hello</h1>
+
+        </section>
+    </div>
+</body>
+</html>
